@@ -1,0 +1,99 @@
+/* Write your CSS here */
+
+@media (min-width: 768px) {
+  .main-container {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .google-logo {
+    height: 15%;
+    width: 35%;
+    margin-bottom: 5%;
+  }
+
+  .search-input-suggestions-container {
+    padding: 2%;
+    box-shadow: 0px 2px 5px 2px #bfbfbf;
+    border-radius: 10px;
+  }
+
+  .search-icon-input-container {
+    display: flex;
+  }
+
+  .search-icon {
+    height: 35px;
+    width: 35px;
+    padding-top: 1px;
+  }
+
+  input {
+    height: 38px;
+    width: 350px;
+    border-style: none;
+    outline: none;
+    color: #64748b;
+    font-size: 28px;
+  }
+}
+ul {
+  padding-left: 0px;
+}
+
+input::placeholder {
+  font-size: 25px;
+  padding-top: 10px;
+  margin-left: 10px;
+}
+
+@media (max-width: 767px) {
+  .main-container {
+    height: 80vh;
+    width: 80vw;
+    box-shadow: 0px 2px 5px 2px #bfbfbf;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .google-logo {
+    height: 10%;
+    width: 30%;
+    margin-bottom: 5%;
+  }
+
+  .search-input-suggestions-container {
+    padding: 2%;
+    box-shadow: 0px 2px 5px 2px #bfbfbf;
+    border-radius: 10px;
+  }
+
+  .search-icon-input-container {
+    display: flex;
+  }
+
+  .search-icon {
+    height: 20px;
+    width: 20px;
+    margin-top: 7px;
+  }
+
+  input {
+    height: 30px;
+    width: 230px;
+    border-style: none;
+    outline: none;
+    color: #64748b;
+    font-size: 12px;
+  }
+
+  ul {
+    padding-left: 0em;
+  }
+}
